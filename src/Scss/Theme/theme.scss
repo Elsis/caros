@@ -1,0 +1,66 @@
+@import "variables.scss";
+html, body{
+  font-family: $arial;
+}
+.ant-layout {
+  background: $gray;
+}
+//profile
+.card-gray{
+  background: $dark-green ;
+  padding: 20px 140px;
+  margin: 20px 60px;
+  border-radius: 15px;
+  height: calc(100vh - 104px);
+
+  .red-card{
+    background: $red;
+    padding: 100px 50px;
+    border-radius: 15px;
+    color: white;
+    margin: 0px 100px 0px 0px;
+
+    .head-card{
+      position: relative;
+      display: flex;
+      width: 100%;
+      margin-bottom: 30px;
+      div{
+        width: 50%;
+      }
+
+      h4{
+        font-size: 24px;
+        color: white;
+        font-weight: 600;
+      }
+      h6{
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+      }
+    }
+
+  }
+  .white-card{
+      background: white;
+      padding: 20px 50px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+  }
+  .btn-red{
+    width: 100%;
+    border-radius: 15px;
+  }
+  p{
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+.btn-style, .btn-style:hover, .btn-style:focus, .btn-style:active {
+  background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 0px;
+    left: 18%;
+}

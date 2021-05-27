@@ -1,0 +1,17 @@
+@import "../Theme/variables.scss";
+.logo {
+  float: left;
+  width: 58px;
+  height: 54px;
+  margin: 5px;
+}
+.navbar{
+  .ant-layout-header {
+      background: $red;
+      box-shadow: $shadow;
+  }
+  .ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+    background: $red;
+    float: right;
+  }
+}

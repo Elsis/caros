@@ -1,0 +1,28 @@
+@import "variables.scss";
+// BUTTONS
+.btn-red{
+  background-color: $red;
+  color: $white;
+  border: 10px;
+  border: none;
+  height: 40px;
+  box-shadow: $shadow;
+}
+.btn-red:hover, .btn-red:focus, .btn-red:active, .btn-red.active{
+  background-color: $dark-red;
+  color: $white;
+}
+
+// GRAY
+.btn-gray{
+  background-color: $dark-green;
+  color: $white;
+  border: 10px;
+  border: none;
+  height: 40px;
+  box-shadow: $shadow;
+}
+.btn-gray:hover, .btn-gray:focus, .btn-gray:active, .btn-gray.active{
+  background-color: $light-green;
+  color: $white;
+}

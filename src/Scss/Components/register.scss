@@ -1,0 +1,36 @@
+@import "../Theme/variables.scss";
+.register{
+  background: $green-background;
+  min-height: 100%;
+  min-width: 800px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  text-align: center;
+  font-style: arial;
+
+  .register-form{
+    width: 500px;
+    background: $white;
+    transform: translate(30%, 13%);
+    border-radius: 30px;
+    padding: 25px;
+    
+  }
+}
+.register-form h2{
+  color: $red;
+  font-style: arial;
+  font-weight: 600;
+}
+.register-bg{
+  height: 700px;
+  width: 700px;
+  transform: translate(-0%,3%);
+}
+.input-form{
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  font-weight: 550;  
+}

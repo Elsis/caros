@@ -1,0 +1,21 @@
+// * Style for MATH in Ant-design
+// * Author: Elsa
+
+@charset 'UTF-8';
+
+// COMPONENTS
+@import
+'../Scss/Components/login',
+'../Scss/Components/navbar',
+'../Scss/Components/register';
+
+// LAYOUT
+@import
+'../Scss/Layout/responsive-mobile';
+
+// THEME
+@import
+'../Scss/Theme/button',
+'../Scss/Theme/cards',
+'../Scss/Theme/theme',
+'../Scss/Theme/variables';

@@ -1,0 +1,40 @@
+@import "../Theme/variables.scss";
+.login{
+  background-image: url(https://i.imgur.com/bobFZso.jpg);
+  background-size: cover;
+  min-height: 100%;
+  min-width: 800px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  text-align: center;
+  font-style: arial;
+ 
+   .login-form{
+    width: 500px;
+    background: $white;
+    transform: translate(108%, 12%);
+    border-radius: 30px;
+    padding: 25px;
+  }
+}
+.login-form i{
+color: $red;
+}
+.login-img{
+  color: $red;
+  font-size: 130px;
+} .login-form h1{
+  color: $dark-green;
+  font-style: arial;
+  font-weight: 1000;
+} 
+.input-border{
+  border-radius: 20px;
+  width: 400px;
+  height: auto;
+  font-weight: 550;  
+}
+.p-color{
+  color: $red;
+}
